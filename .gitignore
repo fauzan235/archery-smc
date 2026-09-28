@@ -1,0 +1,70 @@
+# Dependencies
+/node_modules
+/vendor
+
+# Environment & local settings
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+_ide_helper.php
+Thumbs.db
+.DS_Store
+
+# IDEs & Editors
+/.idea
+/.vscode
+/.cursor
+/.codex
+/.nova
+/.zed
+
+# Laravel Storage & Cache
+/bootstrap/cache/*
+!/bootstrap/cache/.gitkeep
+
+/storage/*.key
+/storage/pail
+/storage/app/*
+!/storage/app/.gitkeep
+!/storage/app/public
+/storage/app/public/*
+!/storage/app/public/.gitkeep
+
+/storage/framework/cache/*
+!/storage/framework/cache/.gitkeep
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitkeep
+/storage/framework/testing/*
+/storage/framework/views/*
+!/storage/framework/views/.gitkeep
+
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+# Database (SQLite)
+/database/*.sqlite
+/database/*.sqlite-journal
+
+# Public assets & uploads
+/public/build
+/public/hot
+/public/storage
+/public/fonts-manifest.dev.json
+
+# Archives, temp files, and scripts
+*.zip
+*.rar
+*.tar.gz
+*.log
+*.tmp
+*.bak
+_check_*.php
+update_*.py
+stitch_*
+WhatsApp*
+
